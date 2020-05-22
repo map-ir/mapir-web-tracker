@@ -42,9 +42,8 @@ var PORT = 3000;
 
 Put your API-Key in line 18.
 
-#### Note:
+#### Note:You should use same API-Key in Publisher and Subscriber!
 
-You should use same API-Key in Publisher and Subscriber!\
 Set `track_id` and `device_id` on line 24 & 25!\
 Then run:
 
