@@ -33,7 +33,7 @@ To use this tool, a publisher has to send data! So you can use [mapir-android-tr
 
 ### Set Subscriber
 
-Open `index.js` in editor.
+Open `index.js` in editor.\
 Set your arbitary port on line 6:
 
 ```
@@ -41,7 +41,11 @@ var PORT = 3000;
 ```
 
 Put your API-Key in line 18.
-Set `track_id` and `device_id` on line 24 & 25!
+
+#### Note:
+
+You should use same API-Key in Publisher and Subscriber!\
+Set `track_id` and `device_id` on line 24 & 25!\
 Then run:
 
 ```
@@ -52,8 +56,8 @@ in root directory of project!
 
 ### Show on Map
 
-Open `App.js` in editor.
-Put your API-Key in line 12.
+Open `App.js` in editor.\
+Put your API-Key in line 12.\
 Put the port that set on `index.js` in line 17.
 
 ```
