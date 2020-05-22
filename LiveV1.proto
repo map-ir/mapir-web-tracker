@@ -1,0 +1,23 @@
+
+// [START declaration]
+syntax = "proto3";
+package Tutorial;
+
+// [END declaration]
+
+// [START java_declaration]
+option java_package = "com.mapr.demo.mqtt.simple";
+option java_outer_classname = "LiveV1Protos";
+// [END java_declaration]
+
+
+// [START messages]
+message LiveV1 {
+  repeated double location = 1;
+  string rtimestamp = 2;
+  float direction = 3;
+  double speed = 4;
+
+}
+
+// [END messages]
