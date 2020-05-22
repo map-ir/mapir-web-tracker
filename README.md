@@ -63,4 +63,4 @@ var socket = io("http://localhost:PORT", {
   });
 ```
 
-Then serve the project on localhost!
+Then serve the project(index.html) on localhost!
